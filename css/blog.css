@@ -1,0 +1,45 @@
+
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+}
+
+#blog .contenedor img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 50%;
+    border: solid black;
+    
+}
+
+#blog article{
+    margin: 80px;
+}
+
+h4{
+    text-align: center;
+}
+
+h4 p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#blog img{
+    -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+#blog img:hover{
+    -webkit-filter: grayscale(100%);
+}
+
+
+
