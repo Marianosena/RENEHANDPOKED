@@ -1,6 +1,6 @@
 
 
-#blog .contenedor{
+#blog .contenedorblog{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -9,13 +9,16 @@
     
 }
 
-#blog .contenedor img{
+#blog .contenedorblog img{
     width: 100%;
     max-width: 280px;
     border-radius: 50%;
     border: solid black;
     
 }
+
+
+
 
 #blog article{
     margin: 80px;
